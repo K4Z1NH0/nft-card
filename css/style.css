@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --Cyan: hsl(178, 100%, 50%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --body-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--body-BG);
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 550px;
+    background-color: var(--card-BG);
+}
+
+
+.equilicrium{
+margin-top: 20px;
+text-align: center;
+}
+
+.equilibrium-icon{
+    top: 25%;
+    left: 43%;
+    position: absolute;
+}
+
+.equilibrium-img{
+    box-shadow: rgba(24, 24, 24, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 265px;
+}
+
+.description{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.description h2{
+    font-size: 1.3em;
+    margin-top: 10px;
+    color: var(--White);
+}
+
+.description h2:hover{
+    cursor: pointer;
+    color: var(--Cyan);
+}
+
+.description h4{
+    margin-top: 20px;
+    color: var(--Soft-blue);
+    font-weight:100;
+}
+
+.statistics{
+    align-items: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eth-img{
+    width: 0.6em;
+    margin-left: 25px;
+}
+
+.cost{
+    font-size: 0.9em;
+    margin-left: 5px;
+    width: 100%;
+    color: var(--Cyan);
+}
+
+.eth-img{
+    width: 0.6em;
+}
+
+.time{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-left: 5px;
+    width: 200px;
+    color: var(--Soft-blue);
+}
+
+.line{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 260px;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.creator{
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.creator img{
+    width: 30px;
+    border: solid 1px var(--White);
+    border-radius: 100%;
+}
+
+.creator h3{
+    font-weight: 100;
+    font-size: 0.9em;
+    color: var(--Soft-blue);
+    margin-left: 10px;
+}
+
+.creator span{
+    color: var(--White);
+}
+
+.creator span:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+/* Midia query */
+
+@media (min-width: 768px){
+    .card{
+        border-radius: 10px;
+        padding: 5px;
+        width: 350px;
+        height: 620px;
+    }
+
+    .equilicrium{
+        margin-top: 25px;
+    }
+        
+    .equilibrium-img{
+        width: 300px;
+    }
+
+    .description h2{
+        font-size: 1.6em;
+    }
+
+    .description h4{
+        font-size: 1.2em;
+    }
+
+    .cost, .time{
+        font-size: 1.2em;
+    }
+
+    .line{
+        width: 315px;
+    }    
+
+    .creator img{
+        width: 35px;
+    }
+    
+    .creator h3{
+        font-size: 1.2em;
+    }
+}
