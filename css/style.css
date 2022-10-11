@@ -146,39 +146,39 @@ text-align: center;
     .card{
         border-radius: 10px;
         padding: 5px;
-        width: 350px;
-        height: 620px;
+        width: 320px;
+        height: 575px;
     }
 
     .equilicrium{
-        margin-top: 25px;
+        margin-top: 20px;
     }
         
     .equilibrium-img{
-        width: 300px;
+        width: 280px;
     }
 
     .description h2{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .description h4{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .cost, .time{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .line{
-        width: 315px;
+        width: 290Px;
     }    
 
     .creator img{
-        width: 35px;
+        width: 30px;
     }
     
     .creator h3{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
