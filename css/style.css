@@ -54,6 +54,18 @@ text-align: center;
     box-shadow: rgba(24, 24, 24, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     width: 265px;
+    
+}
+
+.aqua{
+    border-radius: 10px;
+    top: 6%;
+    left: 10%;
+    position: absolute;
+    opacity: 70%;
+    background-color: var(--Cyan);
+    width: 230px;
+    height: 230px;
 }
 
 .description{
@@ -164,6 +176,12 @@ text-align: center;
         height: 230px;
     }
 
+    .aqua{
+        left: 7%;
+        width: 230px;
+        height: 230px;
+    }
+
     .eth-img{
         margin-left: 15px   ;
     }
@@ -265,6 +283,10 @@ text-align: center;
     .equilibrium-img{
         width: 230px;
         height: 230px;
+    }
+
+    .aqua{
+        left: 11%;
     }
 
     .eth-img{
