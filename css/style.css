@@ -147,13 +147,12 @@ text-align: center;
 }
 
 /* Midia query */
-
-@media (min-width: 768px){
+@media (min-width: 320px){
     .card{
         border-radius: 10px;
         padding: 5px;
-        width: 320px;
-        height: 575px;
+        width: 260px;
+        height: 470px;
     }
 
     .equilicrium{
@@ -161,30 +160,146 @@ text-align: center;
     }
         
     .equilibrium-img{
-        width: 280px;
+        width: 230px;
+        height: 230px;
+    }
+
+    .eth-img{
+        margin-left: 15px   ;
     }
 
     .description h2{
-        font-size: 1.5em;
+        margin-left: -10px;
+        font-size: 1em;
     }
 
     .description h4{
-        font-size: 1.1em;
+        margin-left: -10px;
+        font-size: 0.8em;
     }
+    
 
     .cost, .time{
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 
     .line{
-        width: 290Px;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 220px;
     }    
 
     .creator img{
-        width: 30px;
+        width: 25px;
     }
     
     .creator h3{
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 }
+
+@media (min-width: 375px){
+    .card{
+        border-radius: 10px;
+        padding: 5px;
+        width: 260px;
+        height: 470px;
+    }
+
+    .equilicrium{
+        margin-top: 20px;
+    }
+        
+    .equilibrium-img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .eth-img{
+        margin-left: 15px   ;
+    }
+
+    .description h2{
+        margin-left: -10px;
+        font-size: 1em;
+    }
+
+    .description h4{
+        margin-left: -10px;
+        font-size: 0.8em;
+    }
+    
+
+    .cost, .time{
+        font-size: 0.8em;
+    }
+
+    .line{
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 220px;
+    }    
+
+    .creator img{
+        width: 25px;
+    }
+    
+    .creator h3{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 425px){
+    
+    .card{
+        border-radius: 10px;
+        padding: 5px;
+        width: 280px;
+        height: 480px;
+    }
+
+    .equilicrium{
+        margin-top: 20px;
+    }
+        
+    .equilibrium-img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .eth-img{
+        margin-left: 25px;
+    }
+
+    .description h2{
+        margin-left: 0px;
+        font-size: 1.1em;
+    }
+
+    .description h4{
+        width: 250px;
+        margin-left: 0px;
+        font-size: 0.9em;
+    }
+    
+
+    .cost, .time{
+        font-size: 0.8em;
+    }
+
+    .line{
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 230px;
+    }    
+
+    .creator img{
+        width: 25px;
+    }
+    
+    .creator h3{
+        font-size: 0.8em;
+    }
+}
+
+
