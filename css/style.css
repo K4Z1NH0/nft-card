@@ -15,15 +15,21 @@
 }
 
 body{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    margin: 0px;
     background-color: var(--body-BG);
 }
 
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card{
+    position: absolute;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: relative;
     font-family: 'Outfit', sans-serif;
     border-radius: 10px;
     padding: 5px;
