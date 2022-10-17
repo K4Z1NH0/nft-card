@@ -44,20 +44,22 @@ margin-top: 20px;
 text-align: center;
 }
 
-.equilibrium-icon{
-    top: 25%;
-    left: 43%;
-    position: absolute;
-}
-
 .equilibrium-img{
     box-shadow: rgba(24, 24, 24, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
-    width: 265px;
-    
+    width: 265px;    
 }
 
+.equilibrium-icon{
+    opacity: 100%;
+    position: absolute;
+}
+
+
 .aqua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     top: 6%;
     left: 10%;
